@@ -1,8 +1,9 @@
 import React from 'react'
+import './skills.css'
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <section id='skills'>Skills</section>
   )
 }
 
