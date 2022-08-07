@@ -63,10 +63,10 @@ header {
 /* ============= MEDIA QUERIES (SMALL DEVICES) ============= */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 118vh;
     }
     .header__socials {
-        display:flex;
+        display: flex;
     }
     
 }
