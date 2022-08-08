@@ -65,8 +65,14 @@ header {
     header {
         height: 118vh;
     }
+
+    .me {
+        margin-left: 1rem;
+    }
+
     .header__socials {
         display: flex;
+        position: absolute;
     }
     
 }
