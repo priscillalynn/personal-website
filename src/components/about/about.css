@@ -19,6 +19,10 @@
     color: var(--color-white);
 }
 
+.about_cta {
+    margin-top: 2rem;
+}
+
   
   /* ============= MEDIA QUERIES (SMALL DEVICES) ============= */
   @media screen and (max-width: 600px) {

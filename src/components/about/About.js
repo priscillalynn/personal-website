@@ -23,7 +23,9 @@ const About = () => {
           <br />
           Outside of work, I like to read fiction novels, do outdoor activities such as hiking, and play video games. 
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <div className='about_cta'>
+            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            </div>
           </div>
         </div>
     </section>
