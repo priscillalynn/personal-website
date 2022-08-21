@@ -10,6 +10,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    text-align: center;
 }
 
 .portfolio__item:hover {
@@ -20,6 +21,11 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio__item h3 {
@@ -30,6 +36,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 
