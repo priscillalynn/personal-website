@@ -11,12 +11,14 @@
 }
 
 .about__me {
-    padding-top: 5%;
     margin-bottom: 5rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-top: 2rem;
+    padding-right: 20%;
+    padding-left: 20%;
     text-align: center;
     color: var(--color-white);
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .about_cta {
@@ -27,7 +29,7 @@
   /* ============= MEDIA QUERIES (SMALL DEVICES) ============= */
   @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 100%;
         margin: 0 auto 3rem;
     }
 

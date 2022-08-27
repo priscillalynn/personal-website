@@ -9,20 +9,25 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className=".container.about__container grid">
-        
-          <div className="about__me-img">
+        <div className="about__me-img">
             <img src={ME} alt="About Me" />
           </div>
-        
-          <div className="about__me">
-          <p>
-          Hello there!
-          I am currently a third year Computer Science major at Florida International University.
-          <br />
-          For the upcoming 2022 Fall semester, I will be working on my own personal projects to gain the necessary skills to obtain my first Software Engineer internship. I have experience with Java, HTML/CSS, JavaScript, SQL, and Kotlin. For Fall 2022, I will be participating in CodePath organization's Android Development in Kotlin course and will be looking for internship opportunities for 2023.
-          <br />
-          Outside of work, I like to read fiction novels, do outdoor activities such as hiking, and play video games. 
-          </p>
+            <div className="about__me">
+              <p>
+                Hello there!
+                I am currently a third year Computer Science major at Florida International University.
+                <br />
+                For Fall 2022, my goal is to gain experience working in a professional software development environment by obtaining an internship for 2023. As a student with a strong grasp of CS fundamentals like object-oriented programming, data structures & algorithms, I am capable of learning quickly and working well on a team. Obtaining an internship would mean achieving something in a field that I am truly passionate about, with the outcome of growing into a better developer.
+                <br />
+                <br />
+                Here are some of the technologies I have been working with: 
+                <br />
+                <br />
+                Java, HTML/CSS, JavaScript, SQL, Kotlin, C
+                <br />
+                <br />
+                Outside of work and school, I like to read fiction novels, do outdoor activities such as hiking, and play video games. 
+              </p>
           <div className='about_cta'>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
             </div>
