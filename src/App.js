@@ -1,19 +1,24 @@
 import React from 'react'
 import './App.css'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
+//import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+
 import Intro from './components/Intro'
+import FadeInSection from '../src/components/FadeInSection'
+import Navbar from './components/Nav'
+import About from './components/About'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 const App = () => {
   return (
     <>
     <Intro />
-    <Nav />
+    <Navbar />
     <About />
+    <Experience />
     <Projects />
     <Skills />
     <Contact />
