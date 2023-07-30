@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
+import FolderOpenIcon from '@mui/icons-material/FolderOpen';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import FadeInSection from "./FadeInSection";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Carousel from "react-bootstrap/Carousel";
+//import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Carousel from 'react-bootstrap/Carousel';
 import ExternalLinks from "./ExternalLinks";
 
 class Projects extends React.Component {
@@ -24,14 +24,14 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Creatorverse": {
+        title: "creatorverse",
         desc:
           "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
+        techStack: "REACT.JS, SUPABASE",
         link: "https://github.com/slakh96/no-mans-land",
         open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+        image: "https://user-images.githubusercontent.com/85073401/249640071-239799f6-6e5e-48d4-829c-f390671d0444.gif"
       },
       Truth: {
         title: "truth",
@@ -40,7 +40,7 @@ class Projects extends React.Component {
         techStack: "JAVASCRIPT (THREE.JS)",
         link: "https://github.com/gazijarin/truth",
         open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+        image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
       },
       "Tall Tales": {
         title: "tall tales",
@@ -49,7 +49,7 @@ class Projects extends React.Component {
         techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+        image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
       },
       Portfolio: {
         title: "portfolio.js",
@@ -58,7 +58,7 @@ class Projects extends React.Component {
         techStack: "NODE.JS (EXPRESS.JS)",
         link: "https://github.com/gazijarin/Portfolio.js",
         open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+        image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
       }
     };
     const projects = {
@@ -137,6 +137,7 @@ class Projects extends React.Component {
             </Carousel.Item>
           ))}
         </Carousel>
+
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
@@ -144,9 +145,9 @@ class Projects extends React.Component {
                 <li className="projects-card">
                   <div className="card-header">
                     <div className="folder-icon">
-                      <FolderOpenRoundedIcon
+                      <FolderOpenIcon
                         style={{ fontSize: 35 }}
-                      ></FolderOpenRoundedIcon>
+                      ></FolderOpenIcon>
                     </div>
                     <ExternalLinks
                       githubLink={projects[key]["link"]}

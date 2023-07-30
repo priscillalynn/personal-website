@@ -1,10 +1,9 @@
 import React from "react";
-import { Sidenav, Nav } from 'rsuite';
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { Sidenav } from 'rsuite';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import '../App.css'
+import '../styles/Nav.css'
 import FadeInSection from "./FadeInSection";
 
 const isMobile = window.innerWidth < 600;

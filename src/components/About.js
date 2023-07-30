@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../styles/About.css";
 import FadeInSection from "../components/FadeInSection";
 
 class About extends React.Component {
@@ -39,7 +39,7 @@ class About extends React.Component {
         and let's talk.
       </p>
     );
-    
+
     const desc_items = [one, two];
 
     const tech_stack = [

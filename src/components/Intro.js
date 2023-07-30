@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../styles/Intro.css"
 import Typist from "react-typist-component";
 import temp from '../assets/pc3.gif'
 import FadeInSection from "./FadeInSection";
