@@ -3,7 +3,9 @@ import "../styles/Intro.css"
 import Typist from "react-typist-component";
 import temp from '../assets/pc3.gif'
 import FadeInSection from "./FadeInSection";
+import EmailIcon from '@mui/icons-material/Email';
 
+/*
 const Intro = () => {
   return (
     <>
@@ -13,6 +15,7 @@ const Intro = () => {
         <div className="header-img">
            <img src={temp} alt="computer" />
         </div>
+  
           <Typist avgTypingDelay={120}>
             <span className="intro-title">
               {"hi, i'm "}
@@ -37,5 +40,55 @@ const Intro = () => {
     </>
   );
 };
+*/
+
+
+class Intro extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      expanded: true,
+      activeKey: "1",
+      visible: true
+    };
+    this.handleSelect = this.handleSelect.bind(this);
+  }
+  handleSelect(eventKey) {
+    this.setState({
+      activeKey: eventKey
+    });
+  }
+  render() {
+    return (
+      <div id="intro">
+        <div className="header-img">
+            <img src={temp} alt="computer" />
+        </div>
+        <Typist avgTypingDelay={120}>
+          <span className="intro-title">
+            {"hi, i'm "}
+            <span className="intro-name">{"priscilla"}</span>
+            {"."}
+          </span>
+        </Typist>
+        <FadeInSection>
+          <div className="intro-subtitle">I like to code sometimes.</div>
+          <div className="intro-desc">
+            I'm a senior Computer Science student at Florida International University and I have great
+            interest in full-stack development, artificial intelligence,
+            and data analytics.
+          </div>
+          <a
+            href="mailto:plynn9036@gmail.com"
+            className="intro-contact"
+          >
+            <EmailIcon></EmailIcon>
+            {"  " + "Say hi!"}
+          </a>
+        </FadeInSection>
+      </div>
+    );
+  }
+}
 
 export default Intro;
