@@ -24,7 +24,7 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "Creatorverse": {
+      Creatorverse: {
         title: "creatorverse",
         desc:
           "A third-person survival-mode game where you battle against time and space to return to Earth.",
@@ -33,7 +33,7 @@ class Projects extends React.Component {
         open: "https://gazijarin.itch.io/no-mans-land",
         image: "https://user-images.githubusercontent.com/85073401/249640071-239799f6-6e5e-48d4-829c-f390671d0444.gif"
       },
-      Truth: {
+      Bookfinders: {
         title: "truth",
         desc:
           "A three.js simulation of the planet system revolving around a monolith.",
@@ -42,7 +42,7 @@ class Projects extends React.Component {
         open: "https://gazijarin.github.io/Truth/",
         image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
       },
-      "Tall Tales": {
+      Pomodoro: {
         title: "tall tales",
         desc:
           "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
