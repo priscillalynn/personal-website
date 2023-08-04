@@ -2,24 +2,6 @@
     padding-left: 15%;
     padding-right: 25%;
     min-height: 60vh;
-    margin-top: 50px;
-  }
-  
-  .section-title {
-    font-size: 46px;
-    font-weight: 700;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-  }
-  
-  .section-header:after {
-    content: "";
-    display: inline-block;
-    width: 300px;
-    margin-top: 39px;
-    height: 1px;
-    margin-left: 20px;
-    background-color: lightblue;
   }
   
   .about-description ul {
