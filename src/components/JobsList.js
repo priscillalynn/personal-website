@@ -21,11 +21,10 @@ function TabPanel(props) {
         aria-labelledby={`full-width-tab-${index}`}
         {...other}
       >
-        {value === index && (
           <Box p={3}>
             <Typography>{children}</Typography>
           </Box>
-        )}
+        
       </div>
     );
   } else {
@@ -36,11 +35,10 @@ function TabPanel(props) {
         id={`vertical-tabpanel`}
         {...other}
       >
-        {value === index && (
           <Box p={3}>
             <Typography>{children}</Typography>
           </Box>
-        )}
+        
       </div>
     );
   }
@@ -69,12 +67,11 @@ const RootContainer = styled('div')(({ theme }) => ({
   flexGrow: 1,
   backgroundColor: theme.palette.background.black,
   display: 'flex',
-  height: 300
-
+  height: 300,
 }));
 
 const TabsContainer = styled(Tabs)(({ theme }) => ({
-  borderRight: `1px solid ${theme.palette.divider}`
+  borderRight: `1px solid ${theme.palette.divider}`,
 }));
 
 const JobsList = () => {
@@ -85,35 +82,34 @@ const JobsList = () => {
         jobTitle: "Digital Banking Intern @",
         duration: "MAY 2023 - PRESENT",
         desc: [
-          "Collaborate with experienced cross-disciplinary Amazonians to conceive, design, and bring innovative products and services to market.",
-          "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.",
-          "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use."
+          "Collaborated with a team of data analysts to analyze and interpret large datasets related to customer behavior and product usage.",
+          "Analyzed large datasets to identify specific areas where customers tend to drop off during the online account opening process.",
+          "Created interactive visualizations to present findings, enabling the team to make data-driven decisions and enhance the overall application experience."
         ]
       },
       "American Express": {
         jobTitle: "Software Engineering Intern @",
         duration: "MAY 2023",
         desc: [
-          "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-          "Iteratively built web experiences for 80 million users across high-traffic pages.",
-          "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+          "Collaborated with the Deposits and Checking team to develop a full-stack web application using React.js and Node.js.",
+          "Integrated ServiceNow and GitHub APIs to enable the application to monitor and track releases efficiently.",
+          "Gained valuable hands-on experience in web development, API integration, and teamwork during the internship."
         ]
       },
       "Ultimate Kronos Group": {
         jobTitle: "Print Production Associate II @",
         duration: "AUG 2021 - MAY 2023",
         desc: [
-          "Developing and researching an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-          " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+          "Responsible for executing print production tasks, including operating printing machinery, managing print jobs, and ensuring high-quality outputs.",
+          "Exercised exceptional attention to detail while utilizing Microsoft Excel to accurately input and organize data into logs."
         ]
       },
       "Starbucks": {
         jobTitle: "Senior Barista @",
         duration: "MAY 2019 - MAY 2022",
         desc: [
-          "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sen- sors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-          "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-          "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+          "Demonstrated exceptional barista skills, efficiently preparing and serving a wide range of high-quality coffee beverages to maintain customer satisfaction and loyalty.",
+          "Assumed a leadership role by training and mentoring junior baristas, ensuring adherence to Starbucks' quality standards and fostering a positive team environment."
         ]
       }
     };

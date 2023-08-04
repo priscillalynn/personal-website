@@ -27,7 +27,8 @@
     margin-top: -28px;
     padding-left: 25px;
   }
-  
+
+
   .MuiTab-wrapper {
     font-size: 16px;
     text-align: left;
@@ -51,6 +52,9 @@
   }
   #experience .MuiTab-root {
     padding: 6px 20px;
+    font-size: 16px;
+    align-items: flex-start;
+    font-family: 'NTR', sans-serif;
   }
   .MuiButtonBase-root:focus {
     color: var(--green-bright) !important;
