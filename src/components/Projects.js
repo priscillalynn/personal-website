@@ -27,38 +27,38 @@ class Projects extends React.Component {
       Creatorverse: {
         title: "creatorverse",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
+          "A frontend that supports CRUD operations and API interactions on favorite content creators.",
         techStack: "REACT.JS, SUPABASE",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
+        link: "https://github.com/priscillalynn/codepath-web103-prework",
+        //open: "",
         image: "https://user-images.githubusercontent.com/85073401/249640071-239799f6-6e5e-48d4-829c-f390671d0444.gif"
       },
-      Bookfinders: {
-        title: "truth",
+      Booksurf: {
+        title: "booksurf",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
+          "Book surfing website utilizing the Open Library API.",
+        techStack: "REACT.JS, OPENLIBRARY API",
+        link: "https://github.com/priscillalynn/lib-surf",
+        open: "https://libsurf.xyz/",
         image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
       },
       Pomodoro: {
-        title: "tall tales",
+        title: "pomodoro",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
+          "A visually pleasing pomodoro timer website that incorporates a calming work/study playlist.",
+        techStack: "HTML, CSS, JAVASCRIPT",
+        link: "https://github.com/priscillalynn/pomodoro",
+        //open: "",
+        image: "https://user-images.githubusercontent.com/85073401/216035513-f219cdc1-e031-43cb-b0b6-9a97842e40c1.gif"
       },
-      Portfolio: {
-        title: "portfolio.js",
+      Bloom: {
+        title: "bloom",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
+          "A flower arrangement company's site utilizing a flexbox layout.",
+        techStack: "HTML, CSS",
+        link: "https://github.com/priscillalynn/bloom-company-site",
+        //open: "",
+        image: "https://user-images.githubusercontent.com/85073401/223115482-59a4384e-3f94-4546-8b21-9a2e41b9bae4.gif"
       }
     };
     const projects = {
