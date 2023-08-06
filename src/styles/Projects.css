@@ -19,13 +19,13 @@
     position: relative;
     height: 100%;
     padding: 2rem 1.75rem;
-    background-color: rgb(133, 72, 158);
+    background-color: var(--plum);
     border-radius: 16px;
   }
   
   .projects-card:hover {
     transform: translateY(-7px);
-    background-color: rgb(221, 176, 230);
+    background-color: var(--dark-purple);
   }
   
   .card-header {
@@ -37,14 +37,14 @@
     border-bottom: none !important;
   }
   .folder-icon {
-    color: var(--green-bright);
+    color: var(--light-purple);
   }
   
   .github-icon {
     margin-top: 6px;
   }
   .github-icon:hover {
-    color: var(--green-bright);
+    color: var(--light-purple);
   }
   
   .open-icon {
@@ -67,7 +67,7 @@
   
   .card-tech {
     font-family: "NTR", sans-serif;
-    color: white;
+    color: var(--white);
     font-size: 16px;
   }
   
@@ -119,7 +119,7 @@
     font-family: "NTR", sans-serif;
     font-size: 14px;
     font-weight: bold;
-    color: var(--green-bright);
+    color: var(--light-purple);
   }
   
   .carousel-indicators .active {

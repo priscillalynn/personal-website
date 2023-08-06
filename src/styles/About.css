@@ -21,7 +21,7 @@
   
   .about-description li::before {
     content: "▹    ";
-    color: var(--green-bright);
+    color: var(--light-purple);
     position: absolute;
     left: 0;
   }

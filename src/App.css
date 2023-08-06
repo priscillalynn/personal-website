@@ -12,10 +12,14 @@
 }
 
 :root {
-  --color-bg: #432762;
   --color-bg2: rgb(52, 14, 68);
-  --pink-bright: #d41fd4;
-  --green-matcha: #69bf64;
+  --color-bg3: #2D033B;
+  --dark-purple: #810CA8;
+  --plum: #432762;
+  --neon-purple: #C147E9;
+  --lightest-purple: #E5B8F4;
+  --light-purple: #e957ff;
+  --bright-pink: #d41fd4;
 
   --dark-navy: #020c1b;
   --navy: #0a192f;
@@ -70,7 +74,7 @@ body {
   /*background-color: #513162;*/
   /*background-image: linear-gradient( 135deg, #FFA6B7 10%, #1E2AD2 100%);*/
   /*background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);*/
-  background-color: rgb(52, 14, 68);
+  background-color: #2D033B;
   display: flex;
   flex-direction: row;
   /* padding: 36px 76px; */
@@ -122,12 +126,12 @@ body {
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: var(--lightest-navy);
+  background-color: #543875;
 }
 
 .section-title {
   font-family: "NTR", sans-serif;
-  color: white;
+  color: var(--white);
   font-size: 46px;
   font-weight: bold;
 }
