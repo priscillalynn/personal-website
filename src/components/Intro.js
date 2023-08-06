@@ -69,6 +69,7 @@ class Intro extends React.Component {
             {"hi, i'm "}
             <span className="intro-name">{"priscilla"}</span>
             {"."}
+            <span className="cursor">|</span>
           </span>
         </Typist>
         <FadeInSection>
