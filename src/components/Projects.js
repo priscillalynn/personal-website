@@ -137,7 +137,7 @@ class Projects extends React.Component {
             </Carousel.Item>
           ))}
         </Carousel>
-
+        {/*
         <div className="project-container">
           <ul className="projects-grid">
             {Object.keys(projects).map((key, i) => (
@@ -163,6 +163,7 @@ class Projects extends React.Component {
             ))}
           </ul>
         </div>
+        */}
       </div>
     );
   }
