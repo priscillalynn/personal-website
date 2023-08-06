@@ -80,7 +80,7 @@ class Intro extends React.Component {
             and data analytics.
           </div>
           <a
-            href="mailto:plynn9036@gmail.com"
+            href="#contact"
             className="intro-contact"
           >
             <EmailIcon></EmailIcon>
