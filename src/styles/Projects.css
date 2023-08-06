@@ -126,3 +126,45 @@
     background-color: var(--color-bg-variant);
   }
   
+  /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============= */
+@media screen and (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============= */
+@media screen and (max-width: 600px) {
+  #projects {
+    height: unset;
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .carousel.slide {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+  .carousel-inner {
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+  .carousel-caption {
+    font-family: "NTR", sans-serif;
+    width: 450px;
+    right: unset !important;
+    left: unset !important;
+    user-select: none;
+  }
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+  .carousel-caption p {
+    font-size: 14px;
+    width: 50%;
+    margin: 0 auto;
+  }
+}

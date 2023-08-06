@@ -68,10 +68,23 @@ const RootContainer = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette.background.black,
   display: 'flex',
   height: 300,
+  // mobile styles
+  [theme.breakpoints.down('sm')]: {
+    flexDirection: 'column',
+    height: 'auto',
+  },
 }));
 
 const TabsContainer = styled(Tabs)(({ theme }) => ({
   borderRight: `1px solid ${theme.palette.divider}`,
+  // mobile styles
+  [theme.breakpoints.down('sm')]: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '14px',
+  },
 }));
 
 const JobsList = () => {

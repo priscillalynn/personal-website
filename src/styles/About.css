@@ -63,3 +63,35 @@
     transform: translateY(-7px);
   }
   
+  @media screen and (max-width: 600px) {
+
+    #about {
+      height: unset;
+      margin: 20px;
+      padding-left: unset;
+      padding-right: unset;
+      padding-top: 30%;
+    }
+  
+    .about-description {
+      font-size: 18px;
+      text-align: justify;
+    }
+  
+    .about-description a,
+    .about-description b {
+      font-size: 17px;
+    }
+  
+    .about-image img {
+      display: none;
+    }
+  
+    .about-content {
+      display: unset;
+    }
+  
+    .section-header:after {
+      display: none;
+    }
+  }

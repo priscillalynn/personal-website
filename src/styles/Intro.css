@@ -88,15 +88,20 @@ b {
 }
 
 @media only screen and (max-width: 600px) {
-  #gazi-model {
-    display: none;
-  }
-
   #intro {
     min-height: unset;
     padding-left: unset;
     margin: 0;
     align-items: center;
+  }
+
+  .header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80px;
+    height: auto;
   }
 
   .intro-title {
@@ -106,7 +111,7 @@ b {
     font-size: 46px;
   }
 
-  .Typist {
+  .cursor {
     font-size: 36px;
   }
 
