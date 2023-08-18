@@ -28,7 +28,7 @@ class Projects extends React.Component {
         title: "creatorverse",
         desc:
           "A frontend that supports CRUD operations and API interactions on favorite content creators.",
-        techStack: "REACT.JS, SUPABASE",
+        techStack: "REACT.JS, VITE, SUPABASE",
         link: "https://github.com/priscillalynn/codepath-web103-prework",
         //open: "",
         image: "https://user-images.githubusercontent.com/85073401/249640071-239799f6-6e5e-48d4-829c-f390671d0444.gif"
@@ -39,7 +39,7 @@ class Projects extends React.Component {
           "Book surfing website utilizing the Open Library API.",
         techStack: "REACT.JS, OPENLIBRARY API",
         link: "https://github.com/priscillalynn/lib-surf",
-        open: "https://libsurf.xyz/",
+        //open: "",
         image: "https://i.pinimg.com/originals/7b/1b/b6/7b1bb67b642f2665a0709a26e57300e1.gif"
       },
       Pomodoro: {
@@ -49,7 +49,7 @@ class Projects extends React.Component {
         techStack: "HTML, CSS, JAVASCRIPT",
         link: "https://github.com/priscillalynn/pomodoro",
         //open: "",
-        image: "https://user-images.githubusercontent.com/85073401/216035513-f219cdc1-e031-43cb-b0b6-9a97842e40c1.gif"
+        image: "https://github.com/priscillalynn/pomodoro/assets/85073401/a38a1390-d73f-410a-b7c8-17aa5517d85e"
       },
       Bloom: {
         title: "bloom",
@@ -62,48 +62,41 @@ class Projects extends React.Component {
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
-        desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
+      "title": {
+        desc: "description",
         techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+        link: "https://github.com/",
+        open: "https://github.com/",
       },
-      "Adam A.I.": {
-        desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
+      "title": {
+        desc: "description",
         techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+        link: "https://github.com/",
+        open: "https://github.com/",
       },
-      "Distributed Logging and Monitoring System": {
-        desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
+      "title": {
+        desc: "description",
         techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+        link: "https://github.com/",
       },
-      "Odin Bot": {
-        desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
+      "title": {
+        desc: "description",
         techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
+        link: "https://github.com/",
+        open: "",
       },
-      "Game Centre": {
-        desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
+      "title": {
+        desc: "description",
         techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
+        link: "https://github.com/",
+        open: "",
       },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
+      "title": {
+        desc: "description",
         techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
-      }
+        link: "https://github.com/",
+        open: "",
+      },
     };
 
     return (

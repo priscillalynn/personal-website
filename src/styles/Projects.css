@@ -100,6 +100,8 @@
     right: unset !important;
     left: 25% !important;
     user-select: none;
+    height: 45%;
+    width: 50%;
   }
   
   .carousel-caption h3 {
@@ -123,8 +125,9 @@
   }
   
   .carousel-indicators .active {
-    background-color: var(--color-bg-variant);
+    background-color: var(--light-purple);
   }
+
   
   /* ============= MEDIA QUERIES (MEDIUM DEVICES) ============= */
 @media screen and (max-width: 1024px) {
@@ -154,17 +157,16 @@
   }
   .carousel-caption {
     font-family: "NTR", sans-serif;
-    width: 450px;
-    right: unset !important;
-    left: unset !important;
-    user-select: none;
+    height: 85%;
+    width: 50%;
   }
   .carousel-caption h3 {
-    font-size: 24px;
+    width: 100%;
+    font-size: 20px;
   }
   .carousel-caption p {
     font-size: 14px;
-    width: 50%;
+    width: 95%;
     margin: 0 auto;
   }
 }
