@@ -77,9 +77,10 @@ class About extends React.Component {
             <div className="about-image">
               <img
                 src={
-                  "https://media.licdn.com/dms/image/C4E03AQFa9hyg4r8l4A/profile-displayphoto-shrink_800_800/0/1662519591069?e=1697673600&v=beta&t=RaS6M02qBNWqogWm1yeW1mUBmVPQ3saJYZ1IT3mBH7M"
+                  "https://media.licdn.com/dms/image/C4E03AQFa9hyg4r8l4A/profile-displayphoto-shrink_800_800/0/1662519591069?e=1703116800&v=beta&t=8EZ-K0YfjOcubG86CzeCseY_vzmAwqA6nwf5LmDU8RA"
                 }
-              />
+                />
+              {/*<img src="src/assets/IMG_4947.JPG" />*/}
             </div>
           </div>
         </FadeInSection>
