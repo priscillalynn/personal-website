@@ -44,9 +44,9 @@ class About extends React.Component {
 
     const tech_stack = [
       "Javascript ES6+",
-      "Python",
+      "Java",
       "React.js",
-      "SQL",
+      "Node.js",
       "HTML & CSS",
       "MS Power Apps",
     ];

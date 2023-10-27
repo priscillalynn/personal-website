@@ -93,28 +93,29 @@ const JobsList = () => {
   const experienceItems = {
     BankUnited: {
         jobTitle: "Digital Banking Intern @",
-        duration: "MAY 2023 - PRESENT",
+        duration: "MAY 2023 - OCT 2023",
         desc: [
-          "Collaborated with a team of data analysts to analyze and interpret large datasets related to customer behavior and product usage.",
-          "Analyzed large datasets to identify specific areas where customers tend to drop off during the online account opening process.",
-          "Created interactive visualizations to present findings, enabling the team to make data-driven decisions and enhance the overall application experience."
+          "Led frontend development of a generative AI chatbot, designing and implementing user-friendly interactive features using HTML, CSS, and JavaScript.",
+          "Partnered with a team of data analysts and engineers to analyze and interpret large datasets to identify key areas where applicants are dropping off when going through an online account opening process.",
+          "Created interactive Power BI visualizations to present findings, enabling teams to make data-driven decisions and enhance overall application experience."
         ]
       },
       "American Express": {
         jobTitle: "Software Engineering Intern @",
         duration: "MAY 2023",
         desc: [
-          "Collaborated with the Deposits and Checking team to develop a full-stack web application using React.js and Node.js.",
-          "Integrated ServiceNow and GitHub APIs to enable the application to monitor and track releases efficiently.",
-          "Gained valuable hands-on experience in web development, API integration, and teamwork during the internship."
+          "Collaborated with the Deposits and Checking engineering team to design and implement a new webpage that integrates with GitHub and ServiceNow APIs in order to improve tracking GitHub releases.",
+          "Led the creation of frontend components and assisted with backend, leveraging JavaScript, React.js, Node.js, and Postman, to develop a seamless solution for the project.",
+          "Improved engineering team processes by identifying existing application pain points and establishing the foundation for future enhancements in our application."
         ]
       },
       "Ultimate Kronos Group": {
         jobTitle: "Print Production Associate II @",
         duration: "AUG 2021 - MAY 2023",
         desc: [
-          "Responsible for executing print production tasks, including operating printing machinery, managing print jobs, and ensuring high-quality outputs.",
-          "Exercised exceptional attention to detail while utilizing Microsoft Excel to accurately input and organize data into logs."
+          "Executed printing, secure sealing, and timely dispatch of payroll checks to ensure efficient salary distribution.",
+          "Captured payroll mail shipment data in Excel logs, emphasizing precision and accuracy in every entry.",
+          "Assumed role of team leader during tax season, providing comprehensive training to temporary employees on mail shipping procedures and ensuring smooth and efficient operations."
         ]
       },
       "Starbucks": {
